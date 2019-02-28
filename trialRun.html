@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<script type="text/javascript">
+function test(form){
+for (i=0; i<3; i++){
+    if (form.elements[1]).checked) {
+    if (form.elements[i]).value == answer1) {
+alert("correct");
+    }
+      
+    }
+    else{
+        alert("incorrect, the correct answer is " + answer1");
+
+        
+
+    }
+    alert("test");
+
+}
+</script>
+</head>
+
+
+<body>
+<form>
+<input name="Submit1" type="submit" onclick="test(this.form)">
+<input name="Radio1" type="Radio" value="Rome">Rome
+<input name="Radio2" type="Radio" value="London">London
+<input name="submit1" type="submit" value="submit" onclick="test"(this.form)">
+
+
+
+
+
+
+</form>
+</body>
+
+</html>
